@@ -6,7 +6,6 @@ const SwapPageButton = () => {
   const state = useSelector((state) => state.root);
   const dispatch = useDispatch();
   const swapPage = () => {
-    console.log(state.display);
     if (state.display === "home") {
       dispatch(swapView("favorites"));
     } else {

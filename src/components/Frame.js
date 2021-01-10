@@ -2,7 +2,6 @@ import React from "react";
 import WeatherCard from "./WeatherCard";
 import Grid from "@material-ui/core/Grid";
 import { useSelector } from "react-redux";
-import { Typography } from "@material-ui/core";
 
 const Frame = () => {
   const state = useSelector((state) => state.root);

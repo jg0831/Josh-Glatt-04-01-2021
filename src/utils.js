@@ -14,7 +14,6 @@ export const getLocation = () => {
 export const optionCheck = (options, searchTerm) => {
   for (let option of options) {
     if (option.LocalizedName === searchTerm) {
-      console.log(option)
       return option;
     }
   }
@@ -33,3 +32,7 @@ export const formatIconNumber = (num) => {
   }
   return num;
 };
+
+export const errorHandling = () => {
+  alert("There was a problem with your request. Please Try again later.")
+}

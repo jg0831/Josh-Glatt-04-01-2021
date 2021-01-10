@@ -42,7 +42,6 @@ export default function Header() {
     if (!location) {
        location = await getLocationByTerm(searchTerm);
     }
-    await console.log(location)
     const fiveDay = await getFiveDayForecast(location.Key);
     const currentConditions = await getCurrentConditions(location.Key);
     await dispatch(dispatch(setLocation(location)));
@@ -68,7 +67,6 @@ export default function Header() {
           id="combo-box-demo"
           options={state.optionList.map((option) => option.LocalizedName)}
           onChange={dropDownSelect}
-          // getOptionLabel={(option) => option.LocalizedName}
           style={{ width: 300 }}
           renderInput={(params) => (
             <TextField

@@ -8,11 +8,9 @@ import {
   Typography,
 } from "@material-ui/core";
 import FavoriteItem from "./FavoriteItem";
-import { useSelector } from "react-redux";
 const Favorites = ({ favorites }) => {
   let theme = createMuiTheme();
   theme = responsiveFontSizes(theme);
-  const state = useSelector((state) => state.root);
 
   return (
     <React.Fragment>
