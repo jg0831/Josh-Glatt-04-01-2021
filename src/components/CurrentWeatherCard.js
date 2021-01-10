@@ -8,7 +8,7 @@ import {
   ThemeProvider,
   Typography,
 } from "@material-ui/core";
-import { dateConverter, formatIconNumber } from "../utils";
+import { formatIconNumber } from "../utils";
 const CurrentWeatherCard = ({ forecast }) => {
   let theme = createMuiTheme();
   theme = responsiveFontSizes(theme);
@@ -17,7 +17,7 @@ const CurrentWeatherCard = ({ forecast }) => {
   )}-s.png`;
 
   return (
-    <Paper elevation={3} >
+    <Paper elevation={3}>
       <Box m={1} p={5}>
         <ThemeProvider theme={theme}>
           <Box
@@ -27,9 +27,7 @@ const CurrentWeatherCard = ({ forecast }) => {
             justifyContent="center"
             p={0.5}
           >
-            <Typography variant='h4'>
-              Current Conditions
-            </Typography>
+            <Typography variant="h4">Current Conditions</Typography>
             <Avatar alt="weather icon" src={image} />
             <Typography>Conditions: {forecast.WeatherText} </Typography>
 

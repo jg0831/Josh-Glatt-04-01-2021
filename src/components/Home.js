@@ -18,7 +18,6 @@ import { Box, Button, Grid, Typography } from "@material-ui/core/";
 function App() {
   const state = useSelector((state) => state.root);
   const dispatch = useDispatch();
-
   const initalLoad = async () => {
     const geo = await getLocation();
     const location = await getLocationByGeo(

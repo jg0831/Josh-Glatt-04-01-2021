@@ -33,6 +33,7 @@ export const formatIconNumber = (num) => {
   return num;
 };
 
-export const errorHandling = () => {
+export const errorHandling = (err) => {
+  console.log(err)
   alert("There was a problem with your request. Please Try again later.")
 }
