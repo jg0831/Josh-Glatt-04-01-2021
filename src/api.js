@@ -1,5 +1,5 @@
 import { errorHandling } from "./utils";
-const apiKey = "oFh6GbJs6rAnteHmljA4wDC1nqUh8utB";
+const apiKey = "LYgqGvIdlOn6ARLt3MO7S9V8EF7oWX68";
 
 export const getCurrentConditions = (locationKey) => {
   return fetch(
