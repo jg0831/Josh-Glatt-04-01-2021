@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Josh-Glatt-04-01-2021/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Josh-Glatt-04-01-2021/static/js/main.95dca298.chunk.js",
+    "main.js.map": "/Josh-Glatt-04-01-2021/static/js/main.95dca298.chunk.js.map",
+    "runtime-main.js": "/Josh-Glatt-04-01-2021/static/js/runtime-main.4a050ece.js",
+    "runtime-main.js.map": "/Josh-Glatt-04-01-2021/static/js/runtime-main.4a050ece.js.map",
+    "static/js/2.9eb80b68.chunk.js": "/Josh-Glatt-04-01-2021/static/js/2.9eb80b68.chunk.js",
+    "static/js/2.9eb80b68.chunk.js.map": "/Josh-Glatt-04-01-2021/static/js/2.9eb80b68.chunk.js.map",
+    "static/js/3.a30d5a98.chunk.js": "/Josh-Glatt-04-01-2021/static/js/3.a30d5a98.chunk.js",
+    "static/js/3.a30d5a98.chunk.js.map": "/Josh-Glatt-04-01-2021/static/js/3.a30d5a98.chunk.js.map",
+    "index.html": "/Josh-Glatt-04-01-2021/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Josh-Glatt-04-01-2021/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.9eb80b68.chunk.js.LICENSE.txt": "/Josh-Glatt-04-01-2021/static/js/2.9eb80b68.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a050ece.js",
+    "static/js/2.9eb80b68.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.95dca298.chunk.js"
+  ]
+}
